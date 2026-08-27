@@ -14,6 +14,7 @@ openai>=1.30
 
 # ── Day 24 new: LLM Judge ────────────────────────────────────────────────────
 scipy>=1.11                      # Cohen's κ calculation
+pytest>=8.0                      # test suite (check_lab.py gọi `pytest tests/`)
 
 # ── Day 24 new: Guardrails ───────────────────────────────────────────────────
 presidio-analyzer>=2.2           # PII detection engine
